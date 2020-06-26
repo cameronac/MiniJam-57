@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "7331f3b4-c9f4-45c5-9085-ca67b4100a02",
+            "Value": {
+                "id": "4b4a14d6-4d1b-44dd-9349-b12cd3203fd1",
+                "resourcePath": "sprites\\spr_special_indicator_full\\spr_special_indicator_full.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7b819b1d-2dbd-4ed3-9510-243d8c3f7eee",
             "Value": {
                 "id": "800608c6-3bb5-4f91-852d-25f90be53adb",
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "b0b272b9-a30d-4c32-b858-8e9f40cabe37",
+            "Value": {
+                "id": "04e51be3-0eaa-447b-b17c-ac21469066c7",
+                "resourcePath": "views\\b0b272b9-a30d-4c32-b858-8e9f40cabe37.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b337ae66-bde4-49c9-9cb1-f839e0a7f899",
             "Value": {
                 "id": "d5583ab9-d57e-40f7-92e7-30b452e7032d",
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "b5047eef-3a40-480e-83ab-e303ae70879e",
+            "Value": {
+                "id": "30aeb812-142b-4982-bb3b-2b151d90c0ae",
+                "resourcePath": "views\\b5047eef-3a40-480e-83ab-e303ae70879e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b5751ac4-9a96-423e-9802-4680ba22b160",
             "Value": {
                 "id": "96f75363-35ec-478a-85eb-eaf0d2112125",
@@ -428,6 +452,14 @@
                 "id": "d837d5e3-e551-44bd-97d7-6205806b1502",
                 "resourcePath": "views\\bb66a237-124f-4bac-96dc-5bd24166c51f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c757502e-895f-467a-b8e1-9afb094b8c8c",
+            "Value": {
+                "id": "5729e3c7-9ba9-4d34-8287-94bad86b4a4c",
+                "resourcePath": "sprites\\spr_special_indicator_empty\\spr_special_indicator_empty.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
