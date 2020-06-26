@@ -183,6 +183,22 @@
             }
         },
         {
+            "Key": "5dced387-80e4-4f4a-a444-52320590df0f",
+            "Value": {
+                "id": "2404334f-2997-4e35-a6d7-76b78f97f70f",
+                "resourcePath": "views\\5dced387-80e4-4f4a-a444-52320590df0f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63e5a29c-d2a2-4643-839d-446b048cbb75",
+            "Value": {
+                "id": "87a6cd99-9944-4319-bebe-ddba6e871fa0",
+                "resourcePath": "sprites\\rogue_female_idle\\rogue_female_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6e1a7c9e-477a-49db-949f-af5f03bd5e6d",
             "Value": {
                 "id": "252b4912-a3e8-4a72-83fd-89a54c3e352b",
@@ -282,7 +298,7 @@
             "Key": "a766ea60-7b09-41e7-a587-13e6f18097d0",
             "Value": {
                 "id": "5403d624-70b5-4e0b-818c-7c85a6f3e6c9",
-                "resourcePath": "sprites\\fighter_death\\fighter_death.yy",
+                "resourcePath": "sprites\\fighter_male_death\\fighter_male_death.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -300,6 +316,14 @@
                 "id": "c3dcb7bc-1ee5-4290-838f-f2e7dd6aa182",
                 "resourcePath": "views\\afc1792e-89f0-4fda-bca9-324fec1db6c5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b337ae66-bde4-49c9-9cb1-f839e0a7f899",
+            "Value": {
+                "id": "d5583ab9-d57e-40f7-92e7-30b452e7032d",
+                "resourcePath": "sprites\\rogue_female_move\\rogue_female_move.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -322,7 +346,7 @@
             "Key": "b5751ac4-9a96-423e-9802-4680ba22b160",
             "Value": {
                 "id": "96f75363-35ec-478a-85eb-eaf0d2112125",
-                "resourcePath": "sprites\\fighter_move\\fighter_move.yy",
+                "resourcePath": "sprites\\fighter_male_move\\fighter_male_move.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -340,6 +364,14 @@
                 "id": "d837d5e3-e551-44bd-97d7-6205806b1502",
                 "resourcePath": "views\\bb66a237-124f-4bac-96dc-5bd24166c51f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "caf234d4-6450-49e6-abf5-5bb2f1cc79a4",
+            "Value": {
+                "id": "e0029827-c553-44f6-a06e-4d3ace98050f",
+                "resourcePath": "sprites\\rogue_female_attack\\rogue_female_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -386,7 +418,7 @@
             "Key": "da156568-2150-41b0-93bd-dde4b320fca6",
             "Value": {
                 "id": "7cbf89c7-96cd-4476-91a0-e359af87c89d",
-                "resourcePath": "sprites\\fighter_attack\\fighter_attack.yy",
+                "resourcePath": "sprites\\fighter_male_attack\\fighter_male_attack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -411,14 +443,6 @@
             "Value": {
                 "id": "ac7cec7e-4fab-4b89-9e0b-e0ad6c24c06a",
                 "resourcePath": "sprites\\spr_Test_Player_Front_Back3\\spr_Test_Player_Front_Back3.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "de56af56-c564-4e5e-baaf-5fa531e15d2e",
-            "Value": {
-                "id": "766460d1-1e4c-4f3d-914b-0505de9d20cf",
-                "resourcePath": "sprites\\fighter_gesture\\fighter_gesture.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -487,6 +511,14 @@
             }
         },
         {
+            "Key": "f784f093-0b54-4052-a9b3-a016cc9ef955",
+            "Value": {
+                "id": "7e159ef4-edcc-4850-80ad-b57e1ca511de",
+                "resourcePath": "sprites\\rogue_female_death\\rogue_female_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f858e666-39d8-4857-b5d8-f0e735c6afb0",
             "Value": {
                 "id": "501a5ea9-f991-42c3-853c-1c2015fd9c5e",
@@ -498,7 +530,7 @@
             "Key": "f922e0e5-a0ff-4446-b1b6-81a91210cbaf",
             "Value": {
                 "id": "dd1383e1-f38e-4eb4-afab-770dbb73a639",
-                "resourcePath": "sprites\\fighter_idle\\fighter_idle.yy",
+                "resourcePath": "sprites\\fighter_male_idle\\fighter_male_idle.yy",
                 "resourceType": "GMSprite"
             }
         }
