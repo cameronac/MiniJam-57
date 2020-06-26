@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "obj_player",
     "eventList": [
-        
+        {
+            "id": "4cab1a85-3b81-4e9b-a208-df69834bdec1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d09e4108-a5c7-49cd-acc7-f5137631d9c2"
+        },
+        {
+            "id": "6e7dad5f-1864-4f0c-b0fd-1d628d685afb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "d09e4108-a5c7-49cd-acc7-f5137631d9c2"
+        },
+        {
+            "id": "565f5c8e-baf5-4b73-b6d6-88124e09046e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "d09e4108-a5c7-49cd-acc7-f5137631d9c2"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
