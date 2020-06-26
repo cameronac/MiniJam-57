@@ -1,28 +1,10 @@
 ///@description Handles Game State: Inputs
 
+//Scripts
+scr_global_input();
 
-
-//Inputs: F - Fullscreen, ESC - Pause
-
-//Pause
-if (keyboard_check_pressed(vk_escape)) {
-	
-	if (global.pause == true) {
-		global.pause = false
-	} else {
-		global.pause = true
-	}
-	
-}
-
-
-//Fullscreen
-if (keyboard_check_pressed(ord("F"))) {
-	
-	if (window_get_fullscreen()) {
-		window_set_fullscreen(false);
-	} else {
-		window_set_fullscreen(true);
-	}
-	
+if (global.menu == menu.main_menu) {
+	scr_main_menu();	//Main Menu Script
+} else if (global.menu == menu.level_select) {
+	scr_level_select();	//Level Select Script
 }
