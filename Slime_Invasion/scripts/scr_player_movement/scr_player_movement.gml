@@ -15,10 +15,6 @@
 		are we touching the ground when trying to crouch, etc. 
 
 */
-
-//Is the Game Paused?
-if (global.pause == false) {
-	
 	//Jump
 	if (p_jump == true and place_meeting(x, y + 1, obj_block)) {
 		p_jumping = true; //Triggers Jump
@@ -28,7 +24,9 @@ if (global.pause == false) {
 	
 	//Crouch
 	if (p_crouch == true and place_meeting(x, y + 1, obj_block)) {
-		show_debug_message("Crouch");
+		p_iscrouching = true;
+	} else {
+		p_iscrouching = false;
 	}
 	
 	//Slam
@@ -69,7 +67,5 @@ if (global.pause == false) {
 		}
 		
 	}
-}
-
 
 

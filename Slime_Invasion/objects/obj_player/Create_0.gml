@@ -5,6 +5,7 @@ p_jump = false;
 p_crouch = false;
 p_slam = false;
 p_special = false;
+p_iscrouching = false;
 
 
 //Attributes
