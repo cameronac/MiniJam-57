@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "5b92eb45-3962-4441-b343-eccd2f2b0a2c",
+            "Value": {
+                "id": "b4749db9-4b0b-4be7-bcf1-f1d1ee5a69f8",
+                "resourcePath": "sprites\\green_slime\\green_slime.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6e1a7c9e-477a-49db-949f-af5f03bd5e6d",
             "Value": {
                 "id": "252b4912-a3e8-4a72-83fd-89a54c3e352b",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "c20b5ee2-2297-47de-8687-8cf567ff9e7f",
+            "Value": {
+                "id": "31f4ad98-be79-4680-a4e0-054802899fc0",
+                "resourcePath": "sprites\\blue_slime\\blue_slime.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "cfcd8273-077f-4a31-8641-64866d356f21",
@@ -151,6 +167,14 @@
             }
         },
         {
+            "Key": "d183c3c9-e010-48c3-9082-1eafb6dce97e",
+            "Value": {
+                "id": "0e76049a-a9a2-4f2e-a9d0-34594da8e8fe",
+                "resourcePath": "sprites\\red_slime\\red_slime.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d8cac6bd-9d33-4168-aaaa-38a0e4c4dd37",
             "Value": {
                 "id": "93dca408-7aa2-424f-9830-53b5d3187b08",
@@ -159,11 +183,27 @@
             }
         },
         {
+            "Key": "decb6cfa-7531-4046-b4bd-05795b26580e",
+            "Value": {
+                "id": "348397e0-456e-4418-baf7-7d5d09614def",
+                "resourcePath": "sprites\\orange_slime\\orange_slime.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "df83138c-a43e-4c23-8b48-c9e4528853f3",
             "Value": {
                 "id": "21a9d49e-f74d-4a71-a5e9-33583ce9004f",
                 "resourcePath": "views\\df83138c-a43e-4c23-8b48-c9e4528853f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2d481f9-a6f1-4b1c-9258-3490d343211b",
+            "Value": {
+                "id": "be812ecc-c2a6-49ef-96a8-818d7b2ce071",
+                "resourcePath": "objects\\obj_slime\\obj_slime.yy",
+                "resourceType": "GMObject"
             }
         },
         {
