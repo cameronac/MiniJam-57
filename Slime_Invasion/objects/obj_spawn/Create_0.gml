@@ -7,10 +7,24 @@
 			"hit_time" is the second count until the middle of the slime hits the middle of the screen
 */
 
+// This is an example of how the enemy_spawn_order list will be structured
+var slimes = ds_list_create();
 
-for (i = 0; i < ds_list_size(enemy_spawn_order); i++) {
+var slime1 = ds_map_create();
+ds_map_add(slime1, "going_right", true);
+ds_map_add(slime1, "hit_time", 3);
+
+var slime2 = ds_map_create();
+ds_map_add(slime2, "going_right", false);
+ds_map_add(slime2, "hit_time", 5);
+
+ds_list_add(slimes, slime1);
+ds_list_add(slimes, slime2);
+
+
+for (i = 0; i < ds_list_size(slimes); i++) {
     show_debug_message("new slime");
-	var slime = ds_list_find_value(enemy_spawn_order, i);
+	var slime = ds_list_find_value(slimes, i);
 	var redslime = instance_create_depth(
 		scr_enemy_starting_pos(
 			ds_map_find_value(slime, "going_right"), 
