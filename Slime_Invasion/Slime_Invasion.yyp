@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "7f9d541e-3138-4ce6-882b-3e301d77cf23",
+            "Value": {
+                "id": "b23bbf65-865b-4389-8bf6-e50e9c780617",
+                "resourcePath": "views\\7f9d541e-3138-4ce6-882b-3e301d77cf23.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e4625e1-9701-4777-852f-85716dc704b6",
             "Value": {
                 "id": "14708f04-ab2a-442a-9bf6-e7a47a9b2b92",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "a766ea60-7b09-41e7-a587-13e6f18097d0",
+            "Value": {
+                "id": "5403d624-70b5-4e0b-818c-7c85a6f3e6c9",
+                "resourcePath": "sprites\\fighter_death\\fighter_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "fdf932f4-0662-41b0-8719-e705357510a0",
@@ -299,6 +315,14 @@
             "Value": {
                 "id": "8e4b0013-d938-4ef8-aa81-3a74dc358cda",
                 "resourcePath": "sprites\\slime_green_death\\slime_green_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b5751ac4-9a96-423e-9802-4680ba22b160",
+            "Value": {
+                "id": "96f75363-35ec-478a-85eb-eaf0d2112125",
+                "resourcePath": "sprites\\fighter_move\\fighter_move.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -359,6 +383,14 @@
             }
         },
         {
+            "Key": "da156568-2150-41b0-93bd-dde4b320fca6",
+            "Value": {
+                "id": "7cbf89c7-96cd-4476-91a0-e359af87c89d",
+                "resourcePath": "sprites\\fighter_attack\\fighter_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "da7896b7-6343-4b18-86f2-64f8a39285cd",
             "Value": {
                 "id": "5983744b-3c8f-49c3-a353-6d9f5a6b3217",
@@ -379,6 +411,14 @@
             "Value": {
                 "id": "ac7cec7e-4fab-4b89-9e0b-e0ad6c24c06a",
                 "resourcePath": "sprites\\spr_Test_Player_Front_Back3\\spr_Test_Player_Front_Back3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de56af56-c564-4e5e-baaf-5fa531e15d2e",
+            "Value": {
+                "id": "766460d1-1e4c-4f3d-914b-0505de9d20cf",
+                "resourcePath": "sprites\\fighter_gesture\\fighter_gesture.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -452,6 +492,14 @@
                 "id": "501a5ea9-f991-42c3-853c-1c2015fd9c5e",
                 "resourcePath": "views\\f858e666-39d8-4857-b5d8-f0e735c6afb0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f922e0e5-a0ff-4446-b1b6-81a91210cbaf",
+            "Value": {
+                "id": "dd1383e1-f38e-4eb4-afab-770dbb73a639",
+                "resourcePath": "sprites\\fighter_idle\\fighter_idle.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
