@@ -1,13 +1,12 @@
 
 {
-    "name": "room0",
+    "name": "rm_test",
     "id": "b4751a44-bc1f-4d21-8983-67f8b6653c1e",
     "creationCodeFile": "",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "fb137125-742d-4a77-af4e-b6064b4fc1fa",
         "e2c318cf-faf3-4374-a5a5-350bebb51c31",
         "d7d45124-0706-4dbc-8b7f-dc443fa539db",
         "b6ace5df-2a49-4044-b2e4-7f4965f36c19"
