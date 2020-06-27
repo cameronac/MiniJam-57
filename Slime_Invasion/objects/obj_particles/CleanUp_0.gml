@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Clean up Particles
 // You can write your code in this editor
 part_emitter_destroy(global.particle_system, global.emitter)
 part_type_destroy(global.particle)

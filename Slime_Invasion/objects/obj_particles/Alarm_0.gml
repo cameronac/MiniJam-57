@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Burst Particles
 // You can write your code in this editor
 //part_emitter_stream(global.particle_system, global.emitter, global.particle, 0.5);
 
