@@ -8,36 +8,35 @@
 */
 
 // This is an example of how the enemy_spawn_order list will be structured
-var slimes = ds_list_create();
+slimes = ds_list_create();
 
-var slime1 = ds_map_create();
+slime1 = ds_map_create();
 ds_map_add(slime1, "going_right", true);
 ds_map_add(slime1, "hit_time", 3);
 ds_map_add(slime1, "slime_speed", 1.5);
 ds_map_add(slime1, "color", "red");
 ds_list_add(slimes, slime1);
 
-var slime2 = ds_map_create();
+slime2 = ds_map_create();
 ds_map_add(slime2, "going_right", false);
 ds_map_add(slime2, "hit_time", 5);
 ds_map_add(slime2, "slime_speed", 1.5);
 ds_map_add(slime2, "color", "red");
 ds_list_add(slimes, slime2);
 
-var slime3 = ds_map_create();
+slime3 = ds_map_create();
 ds_map_add(slime3, "going_right", false);
 ds_map_add(slime3, "hit_time", 7);
 ds_map_add(slime3, "slime_speed", 2);
 ds_map_add(slime3, "color", "blue");
 ds_list_add(slimes, slime3);
 
-var slime4 = ds_map_create();
+slime4 = ds_map_create();
 ds_map_add(slime4, "going_right", true);
 ds_map_add(slime4, "hit_time", 9);
 ds_map_add(slime4, "slime_speed", 2);
 ds_map_add(slime4, "color", "blue");
 ds_list_add(slimes, slime4);
-
 
 
 for (i = 0; i < ds_list_size(slimes); i++) {
