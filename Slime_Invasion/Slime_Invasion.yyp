@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "68a6dc10-fa90-4d9d-8156-6190c37a63b2",
+            "Value": {
+                "id": "485918ef-eaa9-4a18-b738-ece654848d60",
+                "resourcePath": "sprites\\slime_blue_jump_high\\slime_blue_jump_high.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a85fd25-1412-4051-b1ed-53ddc3f15d56",
             "Value": {
                 "id": "d2aeab22-080c-4672-96a6-ce48bc7e6f69",
@@ -396,6 +404,14 @@
                 "id": "4a1d355c-d7b4-4c7f-85dd-153430002324",
                 "resourcePath": "sprites\\slime_yellow_move\\slime_yellow_move.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "94a5011e-3d0a-4644-b2bb-caa5fd6c4d28",
+            "Value": {
+                "id": "fca04611-4344-4c51-a03b-75ee6e7b9964",
+                "resourcePath": "scripts\\scr_enemy_jump_start_index\\scr_enemy_jump_start_index.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -580,6 +596,14 @@
                 "id": "ce5342e2-92dd-4ebd-b8de-b9fadf71f966",
                 "resourcePath": "scripts\\scr_enemy_starting_pos\\scr_enemy_starting_pos.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c5837ffd-31d9-418e-9d7d-1200dfeeb4ce",
+            "Value": {
+                "id": "8e913eea-bd37-4d0b-a661-4ea31050bcfc",
+                "resourcePath": "objects\\slime_blue\\slime_blue.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -814,6 +838,7 @@
         "fe2f28ac-e94b-4bdd-a65e-a286249fd50e",
         "1d9ca83b-0fbc-4f2a-a31b-b8ef9cd73bac",
         "c4d230c0-7b88-4266-ab13-1d2aa954eac2",
+        "94a5011e-3d0a-4644-b2bb-caa5fd6c4d28",
         "4779a824-25e1-4a53-a144-ea9c3876518b",
         "1197e878-792b-44c4-a112-3c114fbdefa3",
         "f659b656-30dd-4688-be9c-8734453294ac",
