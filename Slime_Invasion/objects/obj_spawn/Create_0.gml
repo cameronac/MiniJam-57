@@ -53,7 +53,7 @@ for (i = 0; i < ds_list_size(slimes); i++) {
 			ds_map_find_value(slime, "slime_speed"),
 			ds_map_find_value(slime, "hit_time"));
 	
-	var created_slime = instance_create_depth(slime_dist, 50, 0, slime_obj);
+	var created_slime = instance_create_depth(slime_dist, 48, 0, slime_obj);
 	
 	with(created_slime) {
 		// Sets the speed and direction of the slime
