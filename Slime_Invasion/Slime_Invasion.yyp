@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "015cb06d-255c-46c3-ba8c-ecf1c00bc73b",
+            "Value": {
+                "id": "bdd2d5eb-d687-412d-ab70-557af47dd9d3",
+                "resourcePath": "sprites\\spr_particle\\spr_particle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "03b9cda8-c90c-4621-8406-cb87d2c9d1a4",
             "Value": {
                 "id": "916dbdea-a496-4f94-9abf-945558347f60",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "24ff09a8-2a53-4d57-8a26-4b0e66ba47dc",
+            "Value": {
+                "id": "a9d36762-c6de-4352-8c4a-8917e31ec903",
+                "resourcePath": "views\\24ff09a8-2a53-4d57-8a26-4b0e66ba47dc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2d57f885-b56c-4c1b-bf1f-cb7c17498fcd",
             "Value": {
                 "id": "acf043d1-cba0-4ce6-bf46-a194c7bdb8de",
@@ -172,6 +188,14 @@
                 "id": "03cb0d1f-6180-4cf8-9b17-559c3c4e0fac",
                 "resourcePath": "sprites\\slime_yellow_idle\\slime_yellow_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3528a62d-5bd6-4917-9718-5b4d6c7b3b0b",
+            "Value": {
+                "id": "b68558d6-5ae7-4fa7-b750-7e42658ab3bd",
+                "resourcePath": "tilesets\\tl_dungeonTileset\\tl_dungeonTileset.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -284,6 +308,14 @@
                 "id": "84a7ce65-8201-478c-9d04-297cca6b17f8",
                 "resourcePath": "views\\70eac838-ed05-4182-9fcb-2938822328ca.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "71ca40fd-9641-48b2-a418-acccfd56856e",
+            "Value": {
+                "id": "6f7dd885-e923-4118-b51f-80c71cc3e5f0",
+                "resourcePath": "objects\\obj_particles\\obj_particles.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -551,14 +583,6 @@
             }
         },
         {
-            "Key": "c8d8c839-decc-4669-84c2-e1c5d11c0b66",
-            "Value": {
-                "id": "8bccc7a4-3f87-4d55-b920-fe04d965524c",
-                "resourcePath": "rooms\\rm_level_select\\rm_level_select.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "caf234d4-6450-49e6-abf5-5bb2f1cc79a4",
             "Value": {
                 "id": "e0029827-c553-44f6-a06e-4d3ace98050f",
@@ -596,6 +620,14 @@
                 "id": "6bb8e55b-31ba-4eba-a5f6-194ad8e800de",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d5ca9e4d-979a-4ddb-84c2-76396e1805f7",
+            "Value": {
+                "id": "15b82699-2f26-426b-a8d6-54862adec088",
+                "resourcePath": "sprites\\spr_DungeonTileset\\spr_DungeonTileset.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -668,6 +700,14 @@
                 "id": "21a9d49e-f74d-4a71-a5e9-33583ce9004f",
                 "resourcePath": "views\\df83138c-a43e-4c23-8b48-c9e4528853f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e4f86507-60ff-4ccc-b521-90a437e1b8bc",
+            "Value": {
+                "id": "bd00293d-1e67-4e4f-8271-fa60ace19c28",
+                "resourcePath": "sprites\\spr_bakcground_temp\\spr_bakcground_temp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
