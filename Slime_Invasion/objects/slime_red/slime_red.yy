@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "slime_red",
     "eventList": [
-        
+        {
+            "id": "4c587f89-7ec5-4056-ac4f-b89ed6ae6343",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "d09e4108-a5c7-49cd-acc7-f5137631d9c2",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "023934c1-de7a-4d23-8c99-11da04449b3a"
+        },
+        {
+            "id": "f188b444-dbf0-4f4a-93fe-41085ac6ff9b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "023934c1-de7a-4d23-8c99-11da04449b3a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
