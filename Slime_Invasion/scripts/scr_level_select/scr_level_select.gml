@@ -42,9 +42,17 @@ if (enter_key == true) {
 	//Level Selected
 	switch(level_selection_selected) {
 		case 0:
-			room_goto(rm_test);
+			room_goto(rm_level_1);
 			break;
-		
+		case 1:
+			room_goto(rm_level_2);
+			break;
+		case 2:
+			room_goto(rm_level_3);
+			break;
+		case 3: 
+			room_goto(rm_level_4);
+			break;
 		default:
 			break;
 	}

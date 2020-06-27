@@ -22,7 +22,7 @@ p_special = false;
 
 
 //Check for Input
-if (keyboard_check_pressed(ord("Z"))) { p_jump = true; } //Jump
+if (keyboard_check(ord("Z"))) { p_jump = true; } //Jump
 if (keyboard_check(ord("C"))) { p_crouch = true; } else { p_crouch = false } //Crouch
 if (keyboard_check_pressed(ord("X"))) { p_slam = true; } //Slam
 if (keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("V"))) { p_special = true; } //Special  

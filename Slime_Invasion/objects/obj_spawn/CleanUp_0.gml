@@ -1,10 +1,9 @@
 /// @description Destroying DS_Lists, and DS_Maps
 
-//Lists
-ds_list_destroy(slimes)
-
 //Maps
-ds_map_destroy(slime1)
-ds_map_destroy(slime2)
-ds_map_destroy(slime3)
-ds_map_destroy(slime4)
+for (var i = 0; i < ds_list_size(global.slimes); i++) {
+	ds_map_destroy(global.slimes[| i]);	
+}
+
+//Lists
+ds_list_destroy(global.slimes)

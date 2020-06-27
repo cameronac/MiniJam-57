@@ -17,12 +17,12 @@
 
 
 //Movement
-#macro p_speed_max 2.5
+#macro p_speed_max 2.0
 #macro p_speed_increment 0.1
 
 
 //Timers
-#macro p_jump_time 20
+#macro p_jump_time 15
 
 
 //Collision Detection
