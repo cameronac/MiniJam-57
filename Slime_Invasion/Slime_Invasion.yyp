@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "4a1a4865-82ae-4590-a3ad-797d755b069d",
+            "Value": {
+                "id": "b8ee5faf-386a-4dc7-b832-d367b542a715",
+                "resourcePath": "sprites\\fighter_male_crouch_start\\fighter_male_crouch_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d0afc1d-dc8f-4afd-96a7-78cb88df1411",
             "Value": {
                 "id": "55ffeaaa-372c-4927-89d2-5a287dc2c291",
@@ -292,6 +300,14 @@
                 "id": "84a7ce65-8201-478c-9d04-297cca6b17f8",
                 "resourcePath": "views\\70eac838-ed05-4182-9fcb-2938822328ca.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "714bed31-d5f1-4426-a6b9-8c8868a4eace",
+            "Value": {
+                "id": "693ebd48-abf6-4443-8252-940138a69190",
+                "resourcePath": "sprites\\fighter_male_crouch_idle\\fighter_male_crouch_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -412,6 +428,14 @@
                 "id": "1cde9ff2-a2d3-44ec-a3e4-4019ba438616",
                 "resourcePath": "views\\9acebfc4-f22a-404c-91f0-d7c80c742f09.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9bd7573f-89d5-4b80-806e-46ec91f507c3",
+            "Value": {
+                "id": "bb05d24a-c0b1-4e8d-8605-51f77c81a1a1",
+                "resourcePath": "sprites\\fighter_male_crouch_end\\fighter_male_crouch_end.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -719,6 +743,14 @@
             }
         },
         {
+            "Key": "f09f41bc-01ab-489f-b1e3-835df50e5990",
+            "Value": {
+                "id": "f0392cb0-9218-44ca-88ba-4d8e3f145224",
+                "resourcePath": "sprites\\fighter_male_idle\\fighter_male_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3e5bb91-b70e-426b-a22d-44d6814dbff8",
             "Value": {
                 "id": "a7bec5d6-d284-4d05-83b0-71251fe6f957",
@@ -772,14 +804,6 @@
                 "id": "501a5ea9-f991-42c3-853c-1c2015fd9c5e",
                 "resourcePath": "views\\f858e666-39d8-4857-b5d8-f0e735c6afb0.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f922e0e5-a0ff-4446-b1b6-81a91210cbaf",
-            "Value": {
-                "id": "dd1383e1-f38e-4eb4-afab-770dbb73a639",
-                "resourcePath": "sprites\\fighter_male_idle\\fighter_male_idle.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
