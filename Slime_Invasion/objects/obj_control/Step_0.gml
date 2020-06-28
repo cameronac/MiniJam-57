@@ -8,3 +8,4 @@ if (global.menu == menu.main_menu) {
 } else if (global.menu == menu.level_select) {
 	scr_level_select();	//Level Select Script
 }
+

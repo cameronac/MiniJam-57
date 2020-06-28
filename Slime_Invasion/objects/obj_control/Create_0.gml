@@ -3,7 +3,7 @@ audio_play_sound(snd_music_1, 1, true);
 
 //Enumerators
 enum menu {
-	no_menu = -1, main_menu = 0, level_select = 1
+	no_menu = -1, main_menu = 0, level_select = 1, pause_menu = 2
 }
 
 enum main_menu {
