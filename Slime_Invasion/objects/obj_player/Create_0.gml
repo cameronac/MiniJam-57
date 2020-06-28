@@ -14,3 +14,7 @@ p_speed = 0;
 //Timer
 p_jumping = false;
 p_death_timer_set = false;
+
+//Lighting
+light_color = make_color_rgb(100,100,100);
+light_radius = 130;

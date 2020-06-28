@@ -14,6 +14,10 @@ p_speed = 0;
 p_jumping = false;
 p_death_timer_set = false;
 
+//Lighting
+light_color = make_color_rgb(100,100,100);
+light_radius = 130;
+
 alarm[1] = room_speed*2; // jump
 var slime_dist = scr_enemy_starting_pos(true, 2, 2.2, false) - (100 - x);
 var created_slime = instance_create_depth(slime_dist, 102, 0, slime_red);
