@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "691476af-6bf8-4778-8d63-7d82726a69c1",
+            "Value": {
+                "id": "fd60e892-3eaf-47dd-9141-6a35a3cab5bd",
+                "resourcePath": "scripts\\scr_reset_pause_menu\\scr_reset_pause_menu.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6a85fd25-1412-4051-b1ed-53ddc3f15d56",
             "Value": {
                 "id": "d2aeab22-080c-4672-96a6-ce48bc7e6f69",
@@ -679,6 +687,14 @@
             }
         },
         {
+            "Key": "b780716f-920b-4ebe-8cf1-7f2b64335586",
+            "Value": {
+                "id": "591f7829-a027-4c87-8316-813e80413a80",
+                "resourcePath": "scripts\\scr_pause_menu\\scr_pause_menu.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bb66a237-124f-4bac-96dc-5bd24166c51f",
             "Value": {
                 "id": "d837d5e3-e551-44bd-97d7-6205806b1502",
@@ -879,6 +895,14 @@
             }
         },
         {
+            "Key": "f0f8255d-a491-49a4-9edb-c911bab545cf",
+            "Value": {
+                "id": "363e2fcd-8d31-4a04-bfe7-c812059e4ad3",
+                "resourcePath": "scripts\\scr_draw_pause_menu\\scr_draw_pause_menu.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f3e5bb91-b70e-426b-a22d-44d6814dbff8",
             "Value": {
                 "id": "a7bec5d6-d284-4d05-83b0-71251fe6f957",
@@ -986,10 +1010,13 @@
         "94a5011e-3d0a-4644-b2bb-caa5fd6c4d28",
         "4779a824-25e1-4a53-a144-ea9c3876518b",
         "1197e878-792b-44c4-a112-3c114fbdefa3",
+        "b780716f-920b-4ebe-8cf1-7f2b64335586",
         "f659b656-30dd-4688-be9c-8734453294ac",
         "3ba6ffa9-1df7-46ca-a85a-370e6491ae56",
         "76ed188f-9137-4b63-822e-4e30625b2b04",
-        "97785289-0159-4b87-b1e3-b5ce78e456be"
+        "97785289-0159-4b87-b1e3-b5ce78e456be",
+        "f0f8255d-a491-49a4-9edb-c911bab545cf",
+        "691476af-6bf8-4778-8d63-7d82726a69c1"
     ],
     "tutorial": ""
 }

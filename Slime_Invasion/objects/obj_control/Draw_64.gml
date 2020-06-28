@@ -13,3 +13,8 @@ if (global.menu == menu.main_menu) {
 } else if (global.menu == menu.level_select) {
 	scr_draw_level_select();
 }
+
+//Pause Menu
+if (global.pause == true) {
+	scr_draw_pause_menu();
+}
