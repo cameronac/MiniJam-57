@@ -17,9 +17,9 @@
 
 //Crouch Animation
 if (p_iscrouching == true) {
-	sprite_index = spr_player_crouch;	
-} else if (sprite_index == spr_player_crouch) {
-	sprite_index = spr_player_stand;
+	sprite_index = rogue_female_crouch;	
+} else if (sprite_index == rogue_female_crouch) {
+	sprite_index = rogue_female_idle;
 }
 
 

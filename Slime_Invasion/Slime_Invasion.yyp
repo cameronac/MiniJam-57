@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "ad242648-0c10-4a03-9f17-84f9fbe8a952",
+            "Value": {
+                "id": "b2c8f7ea-34cf-4f13-8765-7efa5bd635c2",
+                "resourcePath": "sprites\\rogue_female_crouch\\rogue_female_crouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af125879-2a35-4a5a-bf9d-cf349db12e3d",
             "Value": {
                 "id": "6eb65292-e933-4981-a2e1-4f956f41c916",
@@ -764,14 +772,6 @@
                 "id": "93dca408-7aa2-424f-9830-53b5d3187b08",
                 "resourcePath": "views\\d8cac6bd-9d33-4168-aaaa-38a0e4c4dd37.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "da156568-2150-41b0-93bd-dde4b320fca6",
-            "Value": {
-                "id": "7cbf89c7-96cd-4476-91a0-e359af87c89d",
-                "resourcePath": "sprites\\fighter_male_attack\\fighter_male_attack.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
