@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "742ec71b-4b01-4589-b290-295d0d2c27fb",
+            "Value": {
+                "id": "dca69689-d5b4-4f7c-a1a3-966d3d4eb21b",
+                "resourcePath": "sprites\\spr_DungeonTileset_Test\\spr_DungeonTileset_Test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76ed188f-9137-4b63-822e-4e30625b2b04",
             "Value": {
                 "id": "d6daa6e6-83fa-4986-ac06-34382ef656e3",
@@ -716,14 +724,6 @@
                 "id": "6bb8e55b-31ba-4eba-a5f6-194ad8e800de",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d5ca9e4d-979a-4ddb-84c2-76396e1805f7",
-            "Value": {
-                "id": "15b82699-2f26-426b-a8d6-54862adec088",
-                "resourcePath": "sprites\\spr_DungeonTileset\\spr_DungeonTileset.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
