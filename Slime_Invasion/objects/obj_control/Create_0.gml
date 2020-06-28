@@ -1,8 +1,6 @@
 /// @description Game State Variables
 audio_play_sound(snd_music_1, 1, true);
 
-
-
 //Enumerators
 enum menu {
 	no_menu = -1, main_menu = 0, level_select = 1
@@ -13,7 +11,7 @@ enum main_menu {
 }
 
 enum level_select {
-	one, two, three, four, five, six, seven, eight
+	one, two, three, four, five, six, seven, eight, nine
 }
 
 
@@ -42,4 +40,4 @@ menu_names[1] = "Quit";
 
 //Level Select
 level_selection_selected = level_select.one;
-level_amount = 8; //# of Levels
+level_amount = 9; //# of Levels: Includes Back Button

@@ -11,10 +11,12 @@
 //Change Selection
 if (up_key) {
 	main_menu_selected -= 1;
+	audio_play_sound(snd_menu, 0, false);
 }
 
 if (down_key) {
 	main_menu_selected += 1;
+	audio_play_sound(snd_menu, 0, false);
 }
 
 //Check Bounds

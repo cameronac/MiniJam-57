@@ -7,27 +7,36 @@
 		-level_selection_selected
 */
 
+//Go back to Main Menu
+if (keyboard_check_pressed(vk_escape)) {
+	global.menu = menu.main_menu;
+}
+
 
 //Change Selection
 if (up_key) {
 	level_selection_selected -= 4;
+	audio_play_sound(snd_menu, 0, false);
 }
 
 if (down_key) {
 	level_selection_selected += 4;
+	audio_play_sound(snd_menu, 0, false);
 }
 
 if (right_key) {
 	level_selection_selected += 1;
+	audio_play_sound(snd_menu, 0, false);
 }
 
 if (left_key) {
 	level_selection_selected -= 1;
+	audio_play_sound(snd_menu, 0, false);
 }
 
 
 //Check Bounds
-if (level_selection_selected > level_select.eight) {
+if (level_selection_selected > level_select.nine) {
 	level_selection_selected = level_select.one;
 }
 
@@ -41,21 +50,33 @@ if (enter_key == true) {
 	
 	//Level Selected
 	switch(level_selection_selected) {
-		case 0:
+		case level_select.one:
 			room_goto(rm_level_1);
+			global.menu = menu.no_menu
 			break;
-		case 1:
+			
+		case level_select.two:
 			room_goto(rm_level_2);
+			global.menu = menu.no_menu
 			break;
-		case 2:
+			
+		case level_select.three:
 			room_goto(rm_level_3);
+			global.menu = menu.no_menu
 			break;
-		case 3: 
+			
+		case level_select.four: 
 			room_goto(rm_level_4);
+			global.menu = menu.no_menu
 			break;
+			
+		case level_select.nine:		//Back Button
+			global.menu = menu.main_menu;
+			level_selection_selected = level_select.one;
+			main_menu_selected = main_menu.play;
+			break;
+			
 		default:
 			break;
 	}
-	
-	global.menu = menu.no_menu
 }
