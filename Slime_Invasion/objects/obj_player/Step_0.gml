@@ -14,5 +14,4 @@ if global.pause == false {
 //Player Death 
 if (global.p_health <= 0 and p_death_timer_set == false) {
 	scr_player_death();
-	global.pause = true;
 }

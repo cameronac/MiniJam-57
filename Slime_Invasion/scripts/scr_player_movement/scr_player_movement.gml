@@ -19,7 +19,7 @@
 		p_jumping = true; //Triggers Jump
 		p_speed = p_speed_max;	// Jumping At max speed
 		alarm[0] = p_jump_time;	//Triggering Timer: Stops Jump When Finished
-		audio_play_sound(snd_jump, 1, false);
+		if (global.sound == true) { audio_play_sound(snd_jump, 1, false); }
 	}
 	
 	//Crouch
