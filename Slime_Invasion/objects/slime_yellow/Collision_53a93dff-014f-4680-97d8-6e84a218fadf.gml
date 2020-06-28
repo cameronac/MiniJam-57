@@ -6,5 +6,6 @@ sprite_index = slime_yellow_death;
 if (collided == false) {
 	global.p_health -= 1
 	collided = true
+	audio_play_sound(snd_hit, 1, false);
 }
 
