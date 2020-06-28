@@ -7,8 +7,8 @@
 
 
 //Window Dimensions
-var window_width = window_get_width();
-var window_height = window_get_height();
+var window_width = global.window_width;
+var window_height = global.window_height;
 
 //Title
 draw_text(window_width * 0.5, window_height * 0.3, "Slime Invasion")

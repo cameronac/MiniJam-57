@@ -17,6 +17,8 @@ enum level_select {
 //Global
 global.pause = false
 global.menu = menu.main_menu;
+global.window_width = 1024;
+global.window_height = 768;
 
 
 //Universal Menu Variables: Includes Input
