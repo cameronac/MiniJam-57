@@ -8,7 +8,7 @@ p_slam = false;
 p_iscrouching = false;
 
 //Attributes
-global.p_health = p_health_max
+global.p_health = p_health_max;
 p_speed = 0;
 
 //Timer
