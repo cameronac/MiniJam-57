@@ -925,6 +925,14 @@
                 "resourcePath": "scripts\\scr_player_input\\scr_player_input.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "ff0fe1d1-4bb9-404e-9b9b-941f578f3e66",
+            "Value": {
+                "id": "095dc1ad-ace2-4130-9085-0c14757657e8",
+                "resourcePath": "objects\\slime_yellow\\slime_yellow.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
