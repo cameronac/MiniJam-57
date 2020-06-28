@@ -16,7 +16,7 @@ if (up_key) {
 	} else if (pause_options == true) {
 		pause_options_selected -= 1;
 	}
-	audio_play_sound(snd_menu, 0, false);
+	if (global.sound == true) { audio_play_sound(snd_menu, 0, false); }
 }
 
 
@@ -26,7 +26,7 @@ if (down_key) {
 	} else if (pause_options == true) {
 		pause_options_selected += 1;
 	}
-	audio_play_sound(snd_menu, 0, false);
+	if (global.sound == true) { audio_play_sound(snd_menu, 0, false); }
 }
 
 //Check Bounds
@@ -76,8 +76,10 @@ if (enter_key == true) {
 		if (pause_options_selected == pause_menu_options.music) {
 			if (global.music == true) {
 				global.music = false;
+				audio_stop_all();
 			} else {
 				global.music = true;
+				audio_play_sound(snd_music_1, 1, true);
 			}
 		}
 		

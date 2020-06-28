@@ -16,22 +16,22 @@ if (keyboard_check_pressed(vk_escape)) {
 //Change Selection
 if (up_key) {
 	level_selection_selected -= 4;
-	audio_play_sound(snd_menu, 0, false);
+	if (global.sound == true) { audio_play_sound(snd_menu, 0, false); }
 }
 
 if (down_key) {
 	level_selection_selected += 4;
-	audio_play_sound(snd_menu, 0, false);
+	if (global.sound == true) { audio_play_sound(snd_menu, 0, false); }
 }
 
 if (right_key) {
 	level_selection_selected += 1;
-	audio_play_sound(snd_menu, 0, false);
+	if (global.sound == true) { audio_play_sound(snd_menu, 0, false); }
 }
 
 if (left_key) {
 	level_selection_selected -= 1;
-	audio_play_sound(snd_menu, 0, false);
+	if (global.sound == true) { audio_play_sound(snd_menu, 0, false); }
 }
 
 
