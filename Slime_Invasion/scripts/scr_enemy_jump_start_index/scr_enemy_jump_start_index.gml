@@ -20,4 +20,4 @@ if (argument1) {
 var frames_until_hit = sprite_speed * argument0;
 
 
-return frames_in_loop - ((frames_until_hit - (frames_in_animation/2)) mod frames_in_loop);
+return (frames_in_loop - 1) - ((frames_until_hit - (frames_in_animation/2)) mod frames_in_loop);

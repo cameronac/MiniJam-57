@@ -12,26 +12,28 @@ var width_room = 200;
 var dist_from_player = 0;
 
 if (argument3) {
-	var sprite_speed = 15;
-	var frames_in_animation = 10;
+	var sprite_speed = 15; // frames per second
+	var frames_in_animation = 10; // frames
 
-	var slime_speed_pxl_per_sec = argument1 * room_speed;
+	// Computes the number of frames when the slime is moving
 	var frames_until_hit = sprite_speed * argument2;
 	var number_full_loops = floor((frames_until_hit - (frames_in_animation/2)) / (frames_in_animation * 2));
-	var excess_beginning_frames = floor((frames_until_hit - (frames_in_animation/2)) mod (frames_in_animation * 2));
+	var excess_beginning_frames = (frames_until_hit - (frames_in_animation/2)) mod (frames_in_animation * 2);
 
 	var moving_frames = frames_in_animation * number_full_loops + frames_in_animation/2;
 	var idle_frames = frames_in_animation * number_full_loops;
 	if (excess_beginning_frames > 10) {
 		idle_frames += 10;
-		moving_frames += (frames_in_animation - 10);
+		moving_frames += (excess_beginning_frames - 10);
 	} else {
-		moving_frames += frames_in_animation;
+		idle_frames += excess_beginning_frames;
 	}
 
-	dist_from_player = moving_frames * slime_speed_pxl_per_sec / sprite_speed;
+	// Computes the distance travelled over the time that the slime moves
+	var slime_speed_pxl_per_sec = argument1 * room_speed; // pxl per second
+	dist_from_player = moving_frames * slime_speed_pxl_per_sec / sprite_speed; // pxl
 } else {	
-	dist_from_player = room_speed*argument1*argument2;
+	dist_from_player = room_speed*argument1*argument2; // pxl
 }
 
 if (argument0) {

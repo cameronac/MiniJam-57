@@ -47,22 +47,6 @@
             }
         },
         {
-            "Key": "03b9cda8-c90c-4621-8406-cb87d2c9d1a4",
-            "Value": {
-                "id": "916dbdea-a496-4f94-9abf-945558347f60",
-                "resourcePath": "sprites\\slime_yellow_jump\\slime_yellow_jump.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "04b20db0-8954-43a1-9abd-311e036e3791",
-            "Value": {
-                "id": "f778268e-d36f-4209-b6ff-793f61caf64f",
-                "resourcePath": "sprites\\slime_red_idle\\slime_red_idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "06e8e2f0-f9b8-4896-8b23-4dcd7806659b",
             "Value": {
                 "id": "1270d228-36e2-4e6b-91af-459eec5b461a",
@@ -95,27 +79,11 @@
             }
         },
         {
-            "Key": "1433f849-5734-4cb2-8aee-288fc6efdfdf",
-            "Value": {
-                "id": "29fd77a5-5dcf-42a8-b97f-99390a98cba6",
-                "resourcePath": "sprites\\slime_blue_idle\\slime_blue_idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "17d26d80-6ac4-4acf-84d8-e0ff8960c771",
             "Value": {
                 "id": "641e9b5e-8ef6-475f-b114-6db905e61f87",
                 "resourcePath": "views\\17d26d80-6ac4-4acf-84d8-e0ff8960c771.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "18b239a3-8e38-4ae8-bdc7-9a684cbb4707",
-            "Value": {
-                "id": "c5fdff49-b6ce-4624-820d-fc237a1af9d4",
-                "resourcePath": "sprites\\slime_blue_move\\slime_blue_move.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -154,7 +122,7 @@
             "Key": "21fdbf7c-709e-4c38-a230-2f9b743c2424",
             "Value": {
                 "id": "1b45c87f-826f-4bf2-8175-4e9f33a758c8",
-                "resourcePath": "sprites\\slime_green_jump\\slime_green_jump.yy",
+                "resourcePath": "sprites\\slime_green_move\\slime_green_move.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -172,14 +140,6 @@
                 "id": "a9d36762-c6de-4352-8c4a-8917e31ec903",
                 "resourcePath": "views\\24ff09a8-2a53-4d57-8a26-4b0e66ba47dc.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "2d57f885-b56c-4c1b-bf1f-cb7c17498fcd",
-            "Value": {
-                "id": "acf043d1-cba0-4ce6-bf46-a194c7bdb8de",
-                "resourcePath": "sprites\\slime_green_attack\\slime_green_attack.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -223,10 +183,10 @@
             }
         },
         {
-            "Key": "3912b651-70ba-4c65-a7e1-72710d6733cd",
+            "Key": "390bb236-269a-490b-bbad-1f65ed9b102d",
             "Value": {
-                "id": "6f7f02b3-359a-4739-b343-7e140d886f7a",
-                "resourcePath": "sprites\\slime_blue_attack\\slime_blue_attack.yy",
+                "id": "238ba8fd-24b0-4917-880f-774447160793",
+                "resourcePath": "sprites\\slime_multicolor_jump\\slime_multicolor_jump.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -260,6 +220,14 @@
                 "id": "509d8ca0-830a-4297-8e97-83e06f02c87b",
                 "resourcePath": "sprites\\spr_block\\spr_block.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "42ec7060-0591-46dc-b13e-0bef1c3c38c2",
+            "Value": {
+                "id": "702d155a-1a4c-4c21-a093-e47ed24cdf05",
+                "resourcePath": "views\\42ec7060-0591-46dc-b13e-0bef1c3c38c2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -311,6 +279,14 @@
             }
         },
         {
+            "Key": "55fe5654-470a-4082-920e-77e8c74fde8f",
+            "Value": {
+                "id": "99dfebb0-0750-47bd-983a-ff6d9160760f",
+                "resourcePath": "sprites\\slime_multicolor_death\\slime_multicolor_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58965868-5b6b-4869-b493-9124f5d755ca",
             "Value": {
                 "id": "8c36e9ac-4bfc-4ff4-a945-5a3a9b10cde4",
@@ -346,7 +322,7 @@
             "Key": "68a6dc10-fa90-4d9d-8156-6190c37a63b2",
             "Value": {
                 "id": "485918ef-eaa9-4a18-b738-ece654848d60",
-                "resourcePath": "sprites\\slime_blue_jump_high\\slime_blue_jump_high.yy",
+                "resourcePath": "sprites\\slime_blue_move\\slime_blue_move.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -527,14 +503,6 @@
             }
         },
         {
-            "Key": "9c497589-cb87-4eb0-8e8b-0a196496165b",
-            "Value": {
-                "id": "ccda66c1-0098-40bb-b020-c45ceb5b6158",
-                "resourcePath": "sprites\\slime_yellow_attack\\slime_yellow_attack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9ebf8c21-11c5-4dc4-8f3a-8eeca7f87df6",
             "Value": {
                 "id": "cdb0979a-8265-4123-90ca-636ba5bc0376",
@@ -639,14 +607,6 @@
             }
         },
         {
-            "Key": "ba5dccc6-c7f3-415d-964b-6db484db6dd3",
-            "Value": {
-                "id": "ca8f2d8b-e7e1-4fbb-a5d1-cfff2b77560c",
-                "resourcePath": "sprites\\slime_green_move\\slime_green_move.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "bb66a237-124f-4bac-96dc-5bd24166c51f",
             "Value": {
                 "id": "d837d5e3-e551-44bd-97d7-6205806b1502",
@@ -660,6 +620,14 @@
                 "id": "d6de7758-797b-44b7-ae3d-a649700201cc",
                 "resourcePath": "rooms\\rm_main_menu\\rm_main_menu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c3dc7803-8b75-43fb-82b2-07179be0df30",
+            "Value": {
+                "id": "43e771a5-4b2f-4205-9512-d38eb37d4a95",
+                "resourcePath": "sprites\\slime_multicolor_idle_after_move\\slime_multicolor_idle_after_move.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -691,6 +659,14 @@
             "Value": {
                 "id": "5729e3c7-9ba9-4d34-8287-94bad86b4a4c",
                 "resourcePath": "sprites\\spr_special_indicator_empty\\spr_special_indicator_empty.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c7c2a613-fa9f-47e2-808f-7ff244cce4a2",
+            "Value": {
+                "id": "e7de9824-c3b4-42a3-85e5-fb4c59e74acf",
+                "resourcePath": "sprites\\slime_multicolor_move\\slime_multicolor_move.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -831,22 +807,6 @@
             }
         },
         {
-            "Key": "e78e6b87-0087-44dd-8ea7-eb7489f2edd6",
-            "Value": {
-                "id": "1a7f9ac3-b8cd-4b2d-b335-2e47f076e20e",
-                "resourcePath": "sprites\\slime_blue_jump\\slime_blue_jump.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e7b7f185-14fd-434d-b1b8-14dec40e27fe",
-            "Value": {
-                "id": "afe912ab-1472-4044-9355-e5f56669e4ed",
-                "resourcePath": "sprites\\slime_red_jump\\slime_red_jump.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e827ed78-7045-477d-b155-6cc0501fdf53",
             "Value": {
                 "id": "b323af36-630b-4643-bb0d-6354f619f4c8",
@@ -879,10 +839,18 @@
             }
         },
         {
-            "Key": "f536e144-4b55-4dcb-b1aa-57aa16a4b061",
+            "Key": "f432d90d-bd6f-42b5-886d-0cede9139690",
             "Value": {
-                "id": "fbf670d1-756b-4c92-a47c-a87d9c0864f5",
-                "resourcePath": "sprites\\slime_red_attack\\slime_red_attack.yy",
+                "id": "c020fa75-6951-436c-afad-76e0fc9b3293",
+                "resourcePath": "objects\\slime_multi\\slime_multi.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f58595e3-1579-4876-86d9-1e9b196540fd",
+            "Value": {
+                "id": "c45fcca0-5420-4332-8acd-58650cf993b8",
+                "resourcePath": "sprites\\slime_multicolor_idle_after_jump\\slime_multicolor_idle_after_jump.yy",
                 "resourceType": "GMSprite"
             }
         },
