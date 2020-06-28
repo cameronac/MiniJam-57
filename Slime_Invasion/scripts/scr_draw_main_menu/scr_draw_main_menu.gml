@@ -23,9 +23,9 @@ draw_text(window_width * 0.5, window_height * 0.7, "Quit")
 //Indicator
 switch(main_menu_selected) {
 	case 0: 
-		draw_text(window_width * 0.6, window_height * 0.6, "<")
+		draw_text(window_width * 0.65, window_height * 0.6, "<")
 		break;
 	case 1:
-		draw_text(window_width * 0.6, window_height * 0.7, "<")
+		draw_text(window_width * 0.65, window_height * 0.7, "<")
 		break;
 }

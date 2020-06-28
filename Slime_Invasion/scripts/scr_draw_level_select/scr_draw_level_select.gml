@@ -11,7 +11,7 @@ var window_width = global.window_width;
 var window_height = global.window_height;
 
 //Title
-draw_text(window_width * 0.2, window_height * 0.1, "Level Select");
+draw_text(window_width * 0.35, window_height * 0.1, "Level Select");
 
 //Back Indicator
 draw_text(window_width * 0.5, window_height * 0.62, "Back");
@@ -60,6 +60,6 @@ switch(level_selection_selected) {
 		break;	
 //-------------------------------------------------------- Back Button
 	case level_select.nine: 
-	draw_rectangle((window_width * 0.5) + 60, (window_height * 0.62) + 32, (window_width * 0.5) - 60, (window_height * 0.62) - 45, true)
+	draw_rectangle((window_width * 0.5) + 120, (window_height * 0.62) + 32, (window_width * 0.5) - 120, (window_height * 0.62) - 45, true)
 		break;
 }
