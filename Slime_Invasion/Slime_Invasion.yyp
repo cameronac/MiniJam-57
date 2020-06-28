@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "f9a113fa-0da3-4930-813a-9b3b8cc575f3",
+            "Value": {
+                "id": "dbbd3154-b399-4c5c-b7a4-4b6095f83693",
+                "resourcePath": "objects\\slime_green\\slime_green.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fe2f28ac-e94b-4bdd-a65e-a286249fd50e",
             "Value": {
                 "id": "fac5729e-c827-4ed6-addd-776fb5abf7b0",

@@ -9,27 +9,32 @@
 
 var width_sprite = 32;
 var width_room = 200;
-
 var dist_from_player = 0;
-if (argument3 == false) {
-	dist_from_player = room_speed*argument1*argument2;
-} else {
-	// Finds the distance based on the alternating moving/idling animations
-	var frames_until_hit = room_speed*argument2;
-	
-	var number_loops = floor((frames_until_hit - 5)/20);
-	var place_in_first_loop = (frames_until_hit - 5) mod 20;
 
-	dist_from_player = 10 * number_loops;
-	if (place_in_first_loop > 10) {
-		dist_from_player += (place_in_first_loop - 10);
+if (argument3) {
+	var sprite_speed = 15;
+	var frames_in_animation = 10;
+
+	var slime_speed_pxl_per_sec = argument1 * room_speed;
+	var frames_until_hit = sprite_speed * argument2;
+	var number_full_loops = floor((frames_until_hit - (frames_in_animation/2)) / (frames_in_animation * 2));
+	var excess_beginning_frames = floor((frames_until_hit - (frames_in_animation/2)) mod (frames_in_animation * 2));
+
+	var moving_frames = frames_in_animation * number_full_loops + frames_in_animation/2;
+	var idle_frames = frames_in_animation * number_full_loops;
+	if (excess_beginning_frames > 10) {
+		idle_frames += 10;
+		moving_frames += (frames_in_animation - 10);
+	} else {
+		moving_frames += frames_in_animation;
 	}
-	dist_from_player *= argument1;
+
+	dist_from_player = moving_frames * slime_speed_pxl_per_sec / sprite_speed;
+} else {	
+	dist_from_player = room_speed*argument1*argument2;
 }
 
 if (argument0) {
 	return width_room/2 - dist_from_player - width_sprite/2;
 }
 return width_room/2 + dist_from_player - width_sprite/2;
-
-

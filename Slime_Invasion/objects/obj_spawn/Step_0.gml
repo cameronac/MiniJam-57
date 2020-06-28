@@ -27,6 +27,11 @@ if (ds_list_size(global.slimes) > list_previous_size)
 			slime_pauses = true;
 			break;
 			
+		case "green":
+			slime_obj = slime_green;
+			slime_pauses = true;
+			break;
+			
 		default:
 			break;
 	}
@@ -58,6 +63,15 @@ if (ds_list_size(global.slimes) > list_previous_size)
 				image_index = index_in_loop;
 			} else {
 				sprite_index = slime_yellow_idle;
+				image_index = index_in_loop - 10;
+			}
+		} else if (ds_map_find_value(slime, "color") == "green") {
+			var index_in_loop = scr_enemy_jump_start_index(ds_map_find_value(slime, "hit_time"), slime_pauses);
+			if (index_in_loop < 10) {
+				sprite_index = slime_green_jump;
+				image_index = index_in_loop;
+			} else {
+				sprite_index = slime_green_idle;
 				image_index = index_in_loop - 10;
 			}
 		}
