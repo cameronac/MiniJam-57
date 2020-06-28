@@ -1,4 +1,7 @@
 /// @description Game State Variables
+audio_play_sound(snd_music_1, 1, true);
+
+
 
 //Enumerators
 enum menu {
