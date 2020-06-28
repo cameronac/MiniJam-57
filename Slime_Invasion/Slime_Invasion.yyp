@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "2c7d884d-0bde-4504-8830-25444d5a2a94",
+            "Value": {
+                "id": "b60a43a8-6b04-4a9e-9b56-3436bf206807",
+                "resourcePath": "views\\2c7d884d-0bde-4504-8830-25444d5a2a94.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2d71bc99-113f-46df-8305-607d30348971",
             "Value": {
                 "id": "76870c6b-a0cc-4f61-a388-484990787511",
@@ -396,6 +404,14 @@
                 "id": "693ebd48-abf6-4443-8252-940138a69190",
                 "resourcePath": "sprites\\fighter_male_crouch_idle\\fighter_male_crouch_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "739d7b68-a706-4136-8559-09aceca6ab02",
+            "Value": {
+                "id": "1592d215-4680-4390-8477-3989654cc9ef",
+                "resourcePath": "objects\\menu_player\\menu_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
