@@ -12,9 +12,9 @@ void main()
     vec4 finalcol;
 	vec4 lightcol;
 
-	lightcol.r = mult.r * 5.;
-	lightcol.b = mult.b * 5.;
-	lightcol.g = mult.g * 5.;
+	lightcol.r = mult.r * 8.;
+	lightcol.b = mult.b * 8.;
+	lightcol.g = mult.g * 8.;
 
 
 	finalcol.r = mix(main.r,main.r*lightcol.r,mult.r);
@@ -22,7 +22,7 @@ void main()
 	finalcol.b = mix(main.b,main.b*lightcol.b,mult.b);
 	finalcol.a = 1.;
 
-	float darkness = .4;
+	float darkness = .2;
 
 	finalcol.r = mix(finalcol.r,finalcol.r*darkness,1.-mult.r);
 	finalcol.g = mix(finalcol.g,finalcol.g*darkness,1.-mult.g);
