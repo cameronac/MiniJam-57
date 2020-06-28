@@ -1,1 +1,0 @@
-draw_text(100, 50, timeline_position);

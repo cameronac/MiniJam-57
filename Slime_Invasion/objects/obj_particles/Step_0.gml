@@ -8,10 +8,10 @@
 
 //Start Emitting
 if (emit_start == true) {
-	part_emitter_region(global.particle_system, global.emitter, 0, -room_width, 16, 80, spr_particle, ps_distr_linear)
+	part_emitter_region(global.particle_system, global.emitter, 0, -room_width, 16, 80, pt_shape_square, ps_distr_linear)
 	part_emitter_burst(global.particle_system, global.emitter, global.particle, 50);
 	
-	part_emitter_region(global.particle_system, global.emitter, 0, room_width, 16, 80, spr_particle, ps_distr_linear)
+	part_emitter_region(global.particle_system, global.emitter, 0, room_width, 16, 80, pt_shape_square, ps_distr_linear)
 	part_emitter_burst(global.particle_system, global.emitter, global.particle, 50);
 	alarm[0] = 1000;
 	emit_start = false;

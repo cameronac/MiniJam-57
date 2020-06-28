@@ -1,7 +1,7 @@
 /*
 	Player Macros:
 		A. Attributes: 
-			-Special Max
+			-Max health
 		B. Movement
 			-Speed Max
 			-Speed Increment
@@ -13,7 +13,7 @@
 
 
 //Attributes
-#macro p_special_max 3
+#macro p_health_max 3
 
 
 //Movement

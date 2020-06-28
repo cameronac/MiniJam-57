@@ -1,5 +1,4 @@
- 
- 
+
 //Emit Start
 emit_start = true;
  
@@ -17,6 +16,8 @@ part_type_direction(global.particle, 0, 0, 0, 16);
 part_type_blend(global.particle, true);
 part_type_life(global.particle, 4000, 4000);
 
+//Change Particle to sprite
+//part_type_sprite();
 
 //Particle Emitter System
 global.particle_system = part_system_create_layer("Instances", true)

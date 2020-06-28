@@ -3,11 +3,10 @@
 		-Jump
 		-Crouch
 		-Slam
-		-Special
 
 
 	Variables Used: 
-		-p_jump, p_crouch, p_slam, p_special. p_special_amount
+		-p_jump, p_crouch, p_slam
 
 	Description:
 		Handles all player movement input if the game isn't paused. 
@@ -33,14 +32,6 @@
 	if (p_jumping == true and p_slam == true and !place_meeting(x, y + p_slam_height, obj_block)) {
 		show_debug_message("Slam");
 	}
-	
-	
-	//Special
-	if (p_special == true and p_special_amount > 0) {
-		show_debug_message("Special");
-		p_special_amount -= 1;
-	}
-	
 	
 	//Move the Player
 	

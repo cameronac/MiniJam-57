@@ -1,7 +1,6 @@
 /// @description Spawning Slimes
 
 
-
 //Detecting Change in List Then execute new change
 if (ds_list_size(global.slimes) > list_previous_size)
 {

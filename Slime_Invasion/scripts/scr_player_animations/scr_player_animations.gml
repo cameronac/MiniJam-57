@@ -4,7 +4,6 @@
 		-Crouch
 		-Jump
 		-Slam
-		-Special
 		
 
 	Variables Used:
