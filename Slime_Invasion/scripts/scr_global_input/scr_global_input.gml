@@ -10,7 +10,7 @@
 scr_menu_input();
 
 //Pause
-if (keyboard_check_pressed(vk_escape)) {
+if (keyboard_check_pressed(vk_escape) and room != rm_main_menu) {
 	
 	if (global.pause == true) {
 		global.pause = false

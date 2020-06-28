@@ -1,5 +1,11 @@
 /// @description Spawning Slimes
 
+//Paused
+if (global.pause == true) {
+	timeline_running = false;
+} else {
+	timeline_running = true;
+}
 
 //Detecting Change in List Then execute new change
 if (ds_list_size(global.slimes) > list_previous_size)
