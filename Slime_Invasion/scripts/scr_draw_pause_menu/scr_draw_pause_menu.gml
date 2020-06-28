@@ -44,10 +44,10 @@ if (pause_options == false) {
 if (pause_options == false) {
 	switch(pause_menu_selected) {
 		case pause_menu.resume:
-			draw_text(global.window_width * 0.7, global.window_height * 0.4, "<")
+			draw_text(global.window_width * 0.75, global.window_height * 0.4, "<")
 			break;
 		case pause_menu.options:
-			draw_text(global.window_width * 0.7, global.window_height * 0.5, "<")
+			draw_text(global.window_width * 0.75, global.window_height * 0.5, "<")
 			break;
 		case pause_menu.quit:
 			draw_text(global.window_width * 0.7, global.window_height * 0.6, "<")
@@ -56,10 +56,10 @@ if (pause_options == false) {
 } else if (pause_options == true) {
 	switch(pause_options_selected) {
 		case pause_menu_options.music:
-			draw_text(global.window_width * 0.7, global.window_height * 0.4, "<")
+			draw_text(global.window_width * 0.8, global.window_height * 0.4, "<")
 			break;
 		case pause_menu_options.sound:
-			draw_text(global.window_width * 0.7, global.window_height * 0.5, "<")
+			draw_text(global.window_width * 0.8, global.window_height * 0.5, "<")
 			break;
 		case pause_menu_options.back:
 			draw_text(global.window_width * 0.7, global.window_height * 0.6, "<")
