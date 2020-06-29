@@ -74,6 +74,24 @@ if (enter_key == true) {
 			room_goto(rm_level_5);
 			global.menu = menu.no_menu
 			break;
+		
+		case level_select.six:
+			room_goto(rm_level_6);
+			global.menu = menu.no_menu;
+			break;
+		
+		case level_select.seven:
+			room_goto(rm_level_7);
+			global.menu = menu.no_menu;
+			break;
+		
+		case level_select.eight:
+			room_goto(rm_level_8);
+			global.menu = menu.no_menu;
+			break;
+			
+			
+			
 			
 		case level_select.nine:		//Back Button
 			global.menu = menu.main_menu;
