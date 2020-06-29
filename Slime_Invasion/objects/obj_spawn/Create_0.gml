@@ -16,25 +16,25 @@ switch (room) {
 	case rm_level_1:
 		timeline_index = tl_level_1;
 		break;
-	case rm_level_2:
+	/*case rm_level_2:
 		timeline_index = tl_level_2;
-		break;
+		break;*/
 	case rm_level_3:
 		timeline_index = tl_level_3;
 		break;
-	case rm_level_4:
+	/*case rm_level_4:
 		timeline_index = tl_level_4;
-		break;
+		break;*/
 	case rm_level_5:
 		timeline_index = tl_level_5;
 		break;
-	/*case rm_level_6:
+	case rm_level_6:
 		timeline_index = tl_level_6;
 		break;
 	case rm_level_7:
 		timeline_index = tl_level_7;
 		break;
-	case rm_level_8:
+	/*case rm_level_8:
 		timeline_index = tl_level_8;
 		break;*/
 }

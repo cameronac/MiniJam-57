@@ -4,4 +4,3 @@ ds_map_add(slime, "hit_time", 25);
 ds_map_add(slime, "slime_speed", 2);
 ds_map_add(slime, "color", "blue");
 ds_list_add(global.slimes, slime);
-

@@ -34,7 +34,7 @@
             "Key": "0052a54d-6fc7-40c3-9823-42be0666111a",
             "Value": {
                 "id": "fa057958-0f4c-4926-bb59-ae06c3b2a110",
-                "resourcePath": "timelines\\tl_level_4\\tl_level_4.yy",
+                "resourcePath": "timelines\\tl_level_6\\tl_level_6.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -506,7 +506,7 @@
             "Key": "90951843-b487-4b40-ac4a-cb97e2c7f430",
             "Value": {
                 "id": "29786ae9-405c-4d8a-aa5e-fd58be470181",
-                "resourcePath": "timelines\\tl_level_2\\tl_level_2.yy",
+                "resourcePath": "timelines\\tl_level_3\\tl_level_3.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -922,7 +922,7 @@
             "Key": "e827ed78-7045-477d-b155-6cc0501fdf53",
             "Value": {
                 "id": "b323af36-630b-4643-bb0d-6354f619f4c8",
-                "resourcePath": "timelines\\tl_level_3\\tl_level_3.yy",
+                "resourcePath": "timelines\\tl_level_5\\tl_level_5.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -938,7 +938,7 @@
             "Key": "f08a3c83-3d89-4dc5-9b30-d694eb9a7b4a",
             "Value": {
                 "id": "96f35528-f627-4dc9-b498-18768ac9b671",
-                "resourcePath": "timelines\\tl_level_5\\tl_level_5.yy",
+                "resourcePath": "timelines\\tl_level_7\\tl_level_7.yy",
                 "resourceType": "GMTimeline"
             }
         },
