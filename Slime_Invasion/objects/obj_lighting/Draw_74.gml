@@ -1,6 +1,12 @@
 /// @description Draws the lighting effect
 
+if !surface_exists(lighting)
+{
+	lighting = surface_create(room_width,room_height);
+} 
+
 surface_set_target(lighting);
+
 
 draw_set_color(c_black);
 draw_rectangle(0,0,camera_get_view_width(view_camera[0]),camera_get_view_height(view_camera[0]),false);
