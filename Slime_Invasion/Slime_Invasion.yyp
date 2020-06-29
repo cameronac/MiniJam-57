@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "9b128f07-2c51-4328-8dd6-08dea3de0259",
+            "Value": {
+                "id": "b8c5632b-fb13-4b41-9f22-ccc43c84a827",
+                "resourcePath": "rooms\\rm_level_5\\rm_level_5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9bd7573f-89d5-4b80-806e-46ec91f507c3",
             "Value": {
                 "id": "bb05d24a-c0b1-4e8d-8605-51f77c81a1a1",
@@ -1004,14 +1012,6 @@
                 "id": "7e159ef4-edcc-4850-80ad-b57e1ca511de",
                 "resourcePath": "sprites\\rogue_female_death\\rogue_female_death.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f788fd72-277d-46b4-b0a7-b1f5236478a6",
-            "Value": {
-                "id": "71cb8469-64f6-4b0c-86d6-ed850826c454",
-                "resourcePath": "rooms\\rm_level_5\\rm_level_5.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
