@@ -22,9 +22,9 @@ switch (room) {
 	case rm_level_3:
 		timeline_index = tl_level_3;
 		break;
-	/*case rm_level_4:
+	case rm_level_4:
 		timeline_index = tl_level_4;
-		break;*/
+		break;
 	case rm_level_5:
 		timeline_index = tl_level_5;
 		break;
