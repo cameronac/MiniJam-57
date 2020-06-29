@@ -34,9 +34,9 @@ switch (room) {
 	case rm_level_7:
 		timeline_index = tl_level_7;
 		break;
-	/*case rm_level_8:
+	case rm_level_8:
 		timeline_index = tl_level_8;
-		break;*/
+		break;
 }
 
 timeline_running = true;
