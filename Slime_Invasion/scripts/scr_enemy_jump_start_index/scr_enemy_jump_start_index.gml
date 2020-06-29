@@ -5,8 +5,8 @@
 		is at the highest point at the center of the screen.
 */
 var frames_in_loop = 0;
-var frames_in_animation = 10;
-var sprite_speed = 15;
+var frames_in_animation = 20;
+var sprite_speed = 20;
 
 if (argument1) {
 	// If the slime pauses, then one loop is the move animation and the idle animation
